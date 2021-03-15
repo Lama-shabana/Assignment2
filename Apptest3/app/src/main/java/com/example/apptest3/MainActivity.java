@@ -19,13 +19,13 @@ private EditText editL;
         setContentView(R.layout.activity_main);
         editL=findViewById(R.id.editL);
         editW=findViewById(R.id.editW);
-
+        calculate_wl();
     }
 
     private void calculate_wl(){
-        String Length = editL.getText().toString().trim();
-        String Wgth = editW.getText().toString().trim();
-      //string mass=  (Length * Wgth).toString();
+        double Length = editL.getText().toString().length();
+        double Wgth = editW.getText().length();
+      //double mass=  (Wgth / Length^2).toString();
         //Toast.makeText(this,mass.LENGTH_SHORT).show();
     }
     public void btn_OnClick(View view) {
