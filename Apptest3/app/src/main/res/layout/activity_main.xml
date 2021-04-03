@@ -93,4 +93,13 @@
         app:layout_constraintStart_toEndOf="@+id/txtlength"
         app:layout_constraintTop_toBottomOf="@+id/editW" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick_OnClick"
+        android:text="Button"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="536dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

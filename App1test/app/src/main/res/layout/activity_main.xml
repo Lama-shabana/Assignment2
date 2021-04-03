@@ -53,6 +53,7 @@
         android:inputType="textEmailAddress"
         android:text="Enter your email"
         app:layout_constraintTop_toBottomOf="@+id/editName"
-        tools:layout_editor_absoluteX="103dp" />
+        tools:layout_editor_absoluteX="103dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
